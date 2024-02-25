@@ -63,7 +63,10 @@ we can nest other elements inside of an element
 ### @nbsp; 
 - It add whites spaces in the web pages
 
-### &lt; 
+### lt 
+```
+&lt;
+``` 
 - lt stands for less than (<)
 
 ## HTML COMMENT
