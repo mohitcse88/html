@@ -100,4 +100,15 @@ so a very similar element that is an inline element if we just wanted to wrap a 
 
 ##
 2:21:07
-some css styling to some words that we would highlight around span so we really want to avoid both of these elements as you learn html really work on using semantic elements and then when you understand what semantic elements are and how to use them and then occasionally when just no semantic element is the correct choice that is the time that we actually should use divs in span so i'm going to delete those for now and save our document and now i'll just scroll our code up to the very top and i'm going to do the same for our page over here on the right now what
+some css styling to some words that we would highlight around span so we really want to avoid both of these elements as you learn html really work on using semantic elements and then when you understand what semantic elements are and how to use them and then occasionally when just no semantic element is the correct choice that is the time that we actually should use divs in span so i'm going to delete those for now and save our document and now i'll just scroll our code up to the very top and i'm going to do the same for our page over here on the right now 
+
+## html5 outliner
+
+our current page so we've got our heading hierarchy correct with my goals for the year an untitled nav that's okay we didn't put a heading in there like i said we could have put an h2 it's just saying we didn't have one but a nav doesn't require one but remember if you do have more than one nav element per page then you do need to at least appropriately label that for assistive technology
+
+aside and this aside was inside the second section it's also untitled which is okay and aside does not have to have a heading but it just notes that as it's untitled here if you added a heading inside of the aside say an h4 then it would of course appear
+
+
+##
+
+how important the headings are the heading hierarchy if you don't get any other semantics correct in your page that's the one thing to really understand is the heading hierarchy of a page but all of these other semantic elements definitely help outline your page and add meaning avoiding these is the biggest mistake you can possibly make as you are constructing an html page okay now that we've looked at our outline 
