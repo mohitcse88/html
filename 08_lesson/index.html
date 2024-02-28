@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="author" name="Mohit Kumar">
+    <meta content="description" name="I'm Mohit Kumar I'm here to teach you programming and technologies">
+    <title>Mohit Kumar</title>
+    <link rel="icon" href="html5.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Goals for the Year</h1>
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#html">Learning HTML</a>
+                </li>
+                <li>
+                    <a href="#vacation">Planning a Vacation </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <!-- 1st sub-topics  -->
+        <article id="html">
+            <h2>I'm Ready to Learn HTML</h2>
+            <p>This is my first web page.</p>
+            <section>
+                <h3>HTML5</h3>
+                <img src="img/html_logo_300x300.jpg" alt="HTML Logo" title="I am Learning HTML5" width="300"
+                    height="300">
+                <figure>
+                    <figcaption>An Example of HTML5 code</figcaption>
+                    <p>
+                        <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+                    </p>
+                </figure>
+            </section>
+            <section>
+                <h3>My Daily Schedule</h3>
+                <p>Let me tell you how : </p>
+                <ol>
+                    <li>&nbsp;&nbsp;&nbsp;...I learn more about web dev.</li>
+                    <li>&nbsp;&nbsp;&nbsp;...I plan out my Schedule. </li>
+                    <li>&nbsp;&nbsp;&nbsp;...I use resouces from
+                        <abbr title="Mozilla Developer Network">
+                            <a href="https://developer.mozilla.org">MDN</a>
+                        </abbr>.
+                    </li>
+                </ol>
+                <aside>
+                    <details>
+                        <summary>Guess the <mark>number of hours</mark> I code per day </summary>
+                        <p>I start at <date datetime="8:00">8:00 am</date> and I write code for <date datetime="PT3H">3
+                                hours</date> every morning.</p>
+                    </details>
+                </aside>
+                <br>
+
+                <!-- this table has scope with col and row -->
+                <table>
+                    <caption>My Daily Schedule</caption>
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Morning</th>
+                            <td>
+                                <time datetime="8:00">8:00 AM</time> - <time datetime="11:00">11:00 AM</time>
+                            </td>
+                            <td>Write a Code</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Break</th>
+                            <td>
+                                <time datetime="11:00">11:00 AM</time> - <time datetime="12:00">12:00 PM </time>
+                            </td>
+                            <td> Eat Lunch</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Afternoon</th>
+                            <td>
+                                <time datetime="12:00">12:00 PM </time> - <time datetime="17:00">5:00 PM</time>
+                            </td>
+                            <td>Study for other courses</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Evening</th>
+                            <td rowspan="2">All other Times</td>
+                            <td>Free Time</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Night</th>
+                            <td>Sleep</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">And that's what I do every day, 5 days a week. Just eat, sleep, code.. and
+                                recharge!</td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+                <br><br>
+
+                <!-- this table accopmplished scope with id -->
+                <table>
+                    <caption>My Daily Schedule</caption>
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th id="time">Time</th>
+                            <th id="activity">Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th id="morning">Morning</th>
+                            <td headers="time morning">
+                                <time datetime="8:00">8:00 AM</time> - <time datetime="11:00">11:00 AM</time>
+                            </td >
+                            <td headers="activity morning">Write a Code</td>
+                        </tr>
+                        <tr>
+                            <th id="break">Break</th>
+                            <td headers="time break">
+                                <time datetime="11:00">11:00 AM</time> - <time datetime="12:00">12:00 PM </time>
+                            </td>
+                            <td headers="activity break"> Eat Lunch</td>
+                        </tr>
+                        <tr>
+                            <th id="afternnoon">Afternoon</th>
+                            <td headers="time afternnoon">
+                                <time datetime="12:00">12:00 PM</time> - <time datetime="17:00">5:00 PM</time>
+                            </td>
+                            <td headers="activity afternnoon">Study for other courses</td>
+                        </tr>
+                        <tr>
+                            <th id="evening">Evening</th>
+                            <td rowspan="2" headers="time evening night">All other Times</td>
+                            <td headers="activity evening">Free Time</td>
+                        </tr>
+                        <tr>
+                            <th id="night">Night</th>
+                            <td headers="activity night">Sleep</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">And that's what I do every day, 5 days a week. Just eat, sleep, code.. and
+                                recharge!</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </article>
+
+        <hr>
+        <!-- it is for lazy loading demonstration purpose  remote the comment and write 150 br-->
+        <!-- br*150  -->
+
+        <article id="vacation">
+            <!-- 2nd sub-topics -->
+            <h2>I Am Also Planning a Vacation</h2>
+            <!-- We can put some details about that vacation in the paragraph under the this subtopics -->
+            <p>I have been working hard and really need a gateway.</p>
+            <p>I live in Himachal so I want visit a Mountain.</p>
+
+            <!-- TODO: Add more places -->
+            <section>
+                <h3>Places I'd Like to visit</h3>
+                <!-- extra spaces were caused by the paragraph element inside of these unordered list -->
+                <ul>
+                    <li>
+                        <p>I've heard good things about the Haridawar.</p>
+                        <figure>
+                            <img src="img/haridawar.jpg" alt="Haridawar" title="I like t visit haridawar" width="559"
+                                height="350" loading="lazy">
+                            <figcaption>Haridawar is a good place to visit.</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <p>I've heard good things about going here:</p>
+                        <address>
+                            Mount Everest <br>
+                            Himachal, G.T. Road, <br>
+                            Tel: +91-1824-517000 <br>
+                            Tel: +91-1824-404404
+                        </address>
+                        <figure>
+                            <img src="img/vacation.jpg" alt="Mountain Vacation" title="Here's feels good at 5 o'Clock"
+                                width="474" height="316" loading="lazy">
+                            <figcaption>Mount Everest is good place to visit</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Places I Want to Avoid</h3>
+                <dl>
+                    <dt>North Pole</dt>
+                    <dd>I hear this is <strong>Cold</strong>!</dd>
+                    <dt>South Pole</dt>
+                    <dd>This is also Cole.</dd>
+                    <dt>Mountain Tops</dt>
+                    <dd>These are also cold.</dd>
+                </dl>
+            </section>
+        </article>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&lt;&lt;&lt; &copy; <a href="about.html">about.html</a> &gt;&gt;&gt;</p>
+        <p><a href="#">Back to Top</a></p>
+    </footer>
+
+</body>
+
+</html>
