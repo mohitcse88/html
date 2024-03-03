@@ -96,6 +96,37 @@ autofocus now only one element in the form or on the page can actually have auto
 
 if we reload the page we should see the flashing cursor here there's focus in there immediately when the page loads so we can start typing instantly when the page loads in that field
 
+##
+different type of input that can handle very similar data presentation 
+
+## fieldset and legend
+it's got a square around it and personal info the legend is part of that frame of this section of the form and clearly this does give some more semantic meaning actually conveys meaning in our structure as we define part of the form and what it's about
+
+when a form gets large sometimes it's good to organize it into different sections sections that say what each part of the form 
+
+because this will be a section where we've asked about the different information such as the name and your favorite coffee and so on and now inside of this field set we can specify one more element and this is called **legend** it's a lot like a caption and this is just saying what we're requesting in this section of the form and i'll put personal info here 
+
+and then we can save now let's go back and look at our form again and you can see it's surrounded this section of the form because we're going to add more to it yet so we just sectioned off part of our form essentially
+
+## type = radio
+### name = "same"
+when we select one the other choice should not be selected and that's what we achieve by giving them all the same name for the input 
+
+### id
+i should note that if we had an id of other we didn't with our option up here that was separate that had just the value of other as far as the option and the name and the id was coffee so we're good but you don't want to double up you want to make sure you have individual or unique ids for each input in your form
+
+we can't have an id that says other here too we would be doubling up on that so that could be a problem let's say and select all three and say otherPet 
+
+## textarea
+if we write anything between the textarea that will be value It's better to use placeholder
+
+you commonly see on a contact us form you might have a area for the email for a different message and so on but this would be where you would typically type a paragraph a
+
+## button
+a button element should have a type we'll set that equal to submit note you might also see a form that has a type and here we should put submit there we go so you might see an input with a type submit and that can also create a button the main difference here is that it only takes a text value and that's what will show up on the button inside of a button element you could actually put more things than just a text value inside of the button element so that that is a big difference i like to use the button elements overall because once again it's a little more semantic here we're saying it's a button and then we can just set the type to a submit button so here inside of the button i'm going to type submit and that's what will show up on the button
+
+## password
+we went back the information is in all of these other fields but it's not in the password field we would have to re-enter that every time and that's just part of being with the password field 
 
 ![alt text](image.png)
 ```
